@@ -1,0 +1,117 @@
+/* Reset dan gaya dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f7fa;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header dan Navigasi */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background: #3498db;
+    margin: 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #3498db;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #3498db;
+    color: white;
+}
+
+/* Gambar */
+center img {
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+}
+
+/* Konten Utama */
+div {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+div h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #e74c3c;
+}
+
+p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* Daftar Beban Denis */
+ol {
+    margin-left: 20px;
+    padding-left: 15px;
+}
+
+ol>li {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+ul {
+    margin-top: 10px;
+    margin-left: 25px;
+    list-style-type: disc;
+}
+
+ul li {
+    margin-bottom: 8px;
+    color: #555;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div {
+        padding: 15px;
+    }
+
+    center img {
+        width: 90%;
+    }
+}
