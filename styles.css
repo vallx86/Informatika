@@ -115,3 +115,70 @@ ul li {
         width: 90%;
     }
 }
+
+.bodyLogin{
+    background-color: #f0f4f8;
+    marginl: center;
+    padding: 0;
+    
+}
+.bodyLogin h1 {
+    text-align: center;
+    color: #333;
+    
+}
+
+.login {
+    max-width: 400px;
+    margin: auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login label {
+    display: block;
+    margin-bottom: 6px;
+    color: #333;
+}
+
+.login input[type="email"],
+.login input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.login input[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+.register-text {
+    text-align: center;
+}
+
+.register-text a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.register-text a:hover {
+    text-decoration: underline;
+}
